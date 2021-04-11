@@ -1,29 +1,40 @@
-
-p {
-  color:	#800000;
-  font-size: 30px;
-}
-li {
-  color: green;
-  font-family: 'Montserrat', sans-serif;
-  display: inline; /*Горизонтальный список*/
-  list-style-type: none; /*удаление маркировки*/
+.pics {
+  height: 700px;
+  width: 935px;
+  background-color: #FFA896;
+  margin: 0 auto; /*element in center*/
 }
 
-.Astana {
-  color: purple;
+.PicsLine {
+  height: 293px;
+  width: 935px;
+  background-color: #FFA896;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-#lenovo {
-  color: blue;
-  font-family: 'Montserrat', sans-serif;
+.pic {
+  height: 293px;
+  width: 293px;
+  background-color: #FFC300;
 }
 
-.Astana {
-  color: black;
-  font-family: 'Montserrat', sans-serif;
+img {
+  width: 100%;
+  height: 100%;
 }
 
-.kz {
-  font-size: 14px;
+.second {
+  margin: 0 auto;
+  width: 935px;
+  height: 53px;
+  background-color: #ffe7b8;
+  display: flex;
+  justify-content: center;
+}
+
+.pub {
+  height: 18px;
+  width: 99px;
 }
