@@ -1,0 +1,29 @@
+
+p {
+  color:	#800000;
+  font-size: 30px;
+}
+li {
+  color: green;
+  font-family: 'Montserrat', sans-serif;
+  display: inline; /*Горизонтальный список*/
+  list-style-type: none; /*удаление маркировки*/
+}
+
+.Astana {
+  color: purple;
+}
+
+#lenovo {
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Astana {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.kz {
+  font-size: 14px;
+}
