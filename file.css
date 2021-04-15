@@ -1,14 +1,55 @@
+.user {
+  height: 150px;
+  width: 935px;
+  background-color: #EBEB99;
+  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pfp {
+  height: 150px;
+  width: 150px;
+  background-color: #CACA64;
+
+}
+
+.stats {
+  height: 150px;
+  width: 613.33px;
+  background-color: #A2CA64;
+}
+
+.username {
+  height: 30px;
+  width: 613.33px;
+  background-color: #E3994C;
+}
+
+.userstats {
+  height: 18px;
+  width: 613.33px;
+  background-color: #62E34C;
+}
+
+.bio {
+  height: 48px;
+  width: 613.33px;
+  background-color: #4CE3CE;
+}
+
 .pics {
   height: 700px;
   width: 935px;
-  background-color: #FFA896;
+  background-color: #EAEAE7;
   margin: 0 auto; /*element in center*/
 }
 
 .PicsLine {
   height: 293px;
   width: 935px;
-  background-color: #FFA896;
+  background-color: #EAEAE7;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -17,19 +58,21 @@
 .pic {
   height: 293px;
   width: 293px;
-  background-color: #FFC300;
+  background-color: #EAEAE7;
+  border-radius: 150px;
 }
 
 img {
   width: 100%;
   height: 100%;
+  border-radius: 150px;
 }
 
 .second {
   margin: 0 auto;
   width: 935px;
   height: 53px;
-  background-color: #ffe7b8;
+  background-color: #EAEAE7;
   display: flex;
   justify-content: center;
 }
