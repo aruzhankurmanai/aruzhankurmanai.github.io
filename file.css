@@ -58,7 +58,6 @@
 }
 
 .pics {
-  height: 700px;
   width: 935px;
   background-color: #F9F9F9;
   margin: 0 auto; /*element in center*/
@@ -103,7 +102,10 @@ img.pf {
 
 .pub {
   height: 18px;
-  width: 99px;
+  margin-left: 15px;
+}
+.pub:first-child {
+  margin-left: 0;
 }
 
 button {
