@@ -52,12 +52,14 @@ img.postpic {
 }
 
 .name {
-  width: 332px;
+  width: 334px;
   height: 72px;
-  background-color: #DACDFF;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border: 1px;
+  border-style: solid;
+  border-color: #D8D8D8;
 }
 
 .etc {
@@ -71,4 +73,46 @@ img.postpic {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.picdescription {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.descriptiontext {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plusbutton {
+  width: 24px;
+  height: 24px;
+}
+
+.accpic {
+  width: 42px;
+  height: 42px;
+  border-radius: 150px;
+}
+
+.icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.saveicon img {
+  width: 24px;
+  height: 24px;
+}
+
+.signin {
+  width: 334px;
+  height: 56px;
+}
+
+.signin span {
+  color: #9C9C9C;
 }
