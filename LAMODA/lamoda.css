@@ -5,8 +5,6 @@
   justify-content: center;
 }
 
-
-
 .headcenter {
   background-color: #F5F5F5;
   margin: auto;
@@ -436,6 +434,32 @@ h1 {
 
 .kidspic img {
   width: 400px;
+}
+
+.seventhline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expressshipping {
+  width: 399.98px;
+  height: 313px;
+  color: #ABABAB;
+}
+
+.sevenlineheading p {
+  font-family: sans-serif;
+
+}
+
+.tryonbeforepaying {
+  width: 399.98px;
+  height: 337px;
+}
+
+.comfortpayment {
+  width: 399.98px;
+  height: 314px;
 }
 
 .carousel {
