@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Instagram!</title>
+  <title>Instagram</title>
   <link rel="stylesheet" href="normalize.css">
   <script src="https://kit.fontawesome.com/63b973092a.js" ncrossorigin="anonymous"></script>
   <link rel="stylesheet" href="file.css">
@@ -47,8 +47,99 @@
 
     </div>
     </div>
+
+
+    <div class="whole hide">
+      <div class="pic">
+
+        <img class="postpic" src="pics/cake.jpg" alt="carrotcake">
+      </div>
+      <div class="info">
+        <div class="name">
+          <div>
+            <img class="pfp" src="pics/cakepfp.jpg" alt="">
+          </div>
+          <div>
+            <p class="nametext">kitchenstories</p>
+          </div>
+          <div>
+            <img class="verify" src="pics/verify.png" alt="">
+          </div>
+          <div>
+            <a class="follow" href="#">Follow</a>
+          </div>
+          <div class="etc">
+            <a href="#"><img class="etc" src="pics/etc.png" alt=""></a>
+          </div>
+        </div>
+        <div class="commentsection">
+          <div class="picdescription">
+            <div>
+              <img class="pfp" src="pics/cakepfp.jpg" alt="">
+            </div>
+            <div class="descriptiontext">
+                <div>
+                  <p class="nametext">kitchenstories</p>
+                </div>
+                <div>
+                  <img class="verify" src="pics/verify.png" alt="">
+                </div>
+                <div>
+                  <p> carrot cake </p>
+                </div>
+            </div>
+            <div class="plusbutton">
+              <a href="#"><img class="plusbutton" src="pics/plus.png" alt=""></a>
+            </div>
+          </div>
+          <div class="firstcomment">
+            <div>
+            <a href="#"><img class="accpic" src="pics/portrait.jpg" alt=""></a>
+            </div>
+            <div class="acccomment">
+              <p>I love carrot cakes!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ibuttons">
+          <div class="allbuttons">
+            <div class="icon">
+              <img src="pics/like.png" alt="">
+            </div>
+            <div class="icon">
+              <img src="pics/comment.png" alt="">
+            </div>
+            <div class="icon">
+              <img src="pics/send.png" alt="">
+            </div>
+            </div>
+            <div class="saveicon">
+              <img src="pics/save.png" alt="">
+            </div>
+      </div>
+        <div class="likes">
+          <p><b>150 000 likes</b></p>
+        </div>
+        <div class="time">
+          <p>1 day ago</p>
+        </div>
+        <div class="signin">
+          <p> <a href="#">Sign in</a> <span> to like or comment on this post.</span></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
   <div class="pics">
     <div class="PicsLine">
+      <a href="#">
       <div class="pic container">
         <img class="pf image" src="pics/1.jpg" alt="1">
         <div class="overlay">
@@ -56,6 +147,7 @@
           <span>111</span>
         </div>
       </div>
+    </a>
       <div class="pic">
         <img class="pf" src="pics/2.jpg" alt="2">
       </div>
@@ -63,12 +155,19 @@
         <img class="pf" src="pics/11.jpg" alt="11">
       </div>
     </div>
+
+
+
+
+
+
+
     <div class="PicsLine">
       <div class="pic">
-        <img class="pf" src="pics/22.jpg" alt="22">
+        <a href="#" class="hider"><img class="pf" src="pics/22.jpg" alt="22"></a>
       </div>
       <div class="pic">
-        <img class="pf" src="pics/111.jpg" alt="111">
+        <a href="#" class="cider"><img class="pf" src="pics/111.jpg" alt="111"></a>
       </div>
       <div class="pic">
         <img class="pf" src="pics/222.jpg" alt="222">
@@ -87,6 +186,17 @@
     </div>
   </div>
 
+</div>
+
+<script type="text/javascript">
+document.querySelector('.hider').onclick = function() {
+  document.querySelector('.whole').classList.remove('hide');
+}
+document.querySelector('.cider').onclick = function() {
+  document.querySelector('.whole').classList.add('hide');
+}
+
+</script>
 
 </body>
 
