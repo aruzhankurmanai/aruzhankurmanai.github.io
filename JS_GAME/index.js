@@ -87,6 +87,7 @@ function renderBox() {
   let maxLeft = gameSize.width - boxSize
   // [1, 2, 3] -> length == 3
   let randomColorIndex = getRandom(0, colors.length)
+  let randomColorBackground = getRandom(0, colors.length)
 
   box.style.height = box.style.width = boxSize + 'px'
   box.style.position = 'absolute'
@@ -95,6 +96,8 @@ function renderBox() {
   box.style.left = getRandom(0, maxLeft) + 'px'
   box.style.cursor = 'pointer'
   box.setAttribute('data-box', 'true')
+  box.style.borderRadius = '50%' //added change border radius
+  document.body.style.background = colors[randomColorBackground] //Changing colors of background with random
 
   $game.insertAdjacentElement('afterbegin', box)
 
