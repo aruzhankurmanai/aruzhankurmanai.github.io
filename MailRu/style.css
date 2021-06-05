@@ -68,9 +68,185 @@
   height: 68px;
   background-color: #005ff9;
   border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
 }
 
 .logo img {
   width: 175px;
   height: auto;
+}
+
+.accountheader {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: #005ff9;
+  font-size: 15px;
+  padding: 12px 21px 8px;
+}
+
+a.mail {
+  text-decoration: none;
+  color: #005ff9;
+}
+
+a.mail:hover {
+  text-decoration: underline;
+}
+
+.accounticons img {
+  padding-left: 15px;
+}
+
+img.videoicon {
+  width: 21px;
+  height: 16px;
+}
+
+img.cloudicon {
+  width: 20px;
+  height: 16px;
+}
+
+img.calendaricon {
+  width: 16px;
+  height:16px;
+}
+
+.mailinput {
+  display: flex;
+  justify-content: center;
+}
+
+.mailinput input {
+  width: 162px;
+  height: 32px;
+  border: 2px solid #CECECE;
+  border-radius: 5px 0 0px 5px;
+  font-size: 15px;
+  padding: 0 12px;
+  outline: none;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.mailinput input:focus {
+  border-color: gray;
+}
+
+select.mailtype {
+  border-top: 2px solid #CECECE;
+  border-bottom: 2px solid #CECECE;
+  border-right: 2px solid #CECECE;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+
+select.mailtype:focus {
+  border-color: gray;
+}
+
+.pass {
+  padding-left: 21px;
+  padding-top: 12px;
+}
+
+a.password {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 32px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #005ff9;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+img.arrow {
+  width: 16px;
+  height: 16px;
+  filter: invert();
+  padding-left: 8px;
+}
+
+a.password:hover {
+  background-color: #005AED;
+}
+
+.passwordfooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.rememberme {
+  font-family: sans-serif;
+  color: #404040;
+  font-size: 15px;
+}
+
+.forgotpassword a {
+  text-decoration: underline;
+  font-size: 15px;
+  color: #404040;
+  font-family: sans-serif;
+}
+
+.forgotpassword a:hover {
+  text-decoration: none;
+}
+
+hr.lineinaccount {
+  width: 255px;
+  border: 1px solid #F2F2F2;
+}
+
+.accountbuttons {
+  padding-left: 20px;
+}
+
+.createmail {
+  width: 255px;
+  height: 32px;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #005ff9;
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.VKconnect {
+  width: 255px;
+  height: 32px;
+  background-color: #4986cc;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vktext {
+  padding-left: 8px;
+}
+
+img.vklogo {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 5px;
 }
