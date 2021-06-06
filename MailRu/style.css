@@ -56,6 +56,11 @@
   justify-content: space-around;
 }
 
+.leftbody {
+  display: flex;
+  flex-direction: column;
+}
+
 .mailaccount {
   width: 300px;
   height: 317px;
@@ -224,7 +229,9 @@ hr.lineinaccount {
   align-items: center;
 }
 
-
+.space {
+  height: 10px;
+}
 
 .VKconnect {
   width: 255px;
@@ -249,4 +256,91 @@ img.vklogo {
   height: 16px;
   background-color: white;
   border-radius: 5px;
+}
+
+.weather {
+  width: 300px;
+  height: 141px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  font-family: sans-serif;
+}
+
+a.city {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+a.city:hover {
+  text-decoration: underline;
+}
+
+a.more {
+  font-size: 13px;
+  text-decoration: none;
+  color: #005ff9;
+}
+
+a.more:hover {
+  text-decoration: underline;
+}
+
+a.forecast {
+  text-decoration: none;
+}
+
+.currentweather {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.currentsun {
+  border-radius: 25px;
+  width: 28px;
+  height: 28px;
+  background-color: #F3E436;
+}
+
+.degree {
+  color: black;
+  font-family: sans-serif;
+  font-size: 28px;     padding-left: 15px;
+}
+
+.descripweather {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  padding-left: 15px;
+}
+
+span.condition {
+   font-size: 15px;
+   color: black;
+}
+
+span.humidity {
+  font-size: 13px;
+  color: #959595;
+}
+
+hr.lineinweather {
+  width: 255px;
+  border: 1px solid #F2F2F2;
+}
+
+.weatherduringday {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
 }
