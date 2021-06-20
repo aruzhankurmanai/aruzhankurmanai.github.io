@@ -53,12 +53,14 @@
 
 .mainbody {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .leftbody {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .mailaccount {
@@ -1338,4 +1340,92 @@ a.etcetera:hover {
   background-color: #EDEDED;
   border-radius: 8px;
   padding: 6px 8px;
+}
+
+.rightbody {
+
+}
+
+.rightbodyheader li {
+  display: inline;
+  color: #005bd1;
+  padding: 4px 8px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.rightbodyheader a {
+  text-decoration: none;
+}
+
+.rightbodyheader a:hover {
+  text-decoration: underline;
+}
+
+.searchsection {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.search input[type=text] {
+  height: 40px;
+  width: 884px;
+  float: left;
+  border: 2px solid #ff9e00;
+  font-size: 17px;
+  outline: none;
+  box-sizing: border-box;
+  transition: .3s;
+  padding-left: 8px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.search input[type=text]:hover {
+  border: 3px solid #ff9e00;
+  border-radius: 10px 0px 0px 10px;
+}
+
+a.searchbtn {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  width: 107px;
+  height: 40px;
+  background-color: #ff9e00;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.searchbtn:hover {
+    background-color: #E78F00
+}
+
+li.newsli {
+  display: inline;
+  color: #005bd1;
+  padding: 4px 8px;
+  font-family: sans-serif;
+  font-size: 15px;
+  border-bottom: 2px solid #005bd1;
+}
+
+li.otherblocks {
+  display: inline;
+  color: #333131;
+  padding: 4px 8px;
+  font-family: sans-serif;
+  font-size: 15px;
+  border-bottom: 1px solid #838181;
+}
+
+.blocks a {
+  text-decoration: none;
+}
+
+li.otherblocks:hover {
+  border-bottom: 2px solid #838181;
 }
