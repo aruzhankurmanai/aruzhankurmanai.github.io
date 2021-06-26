@@ -32,7 +32,7 @@ function slidePlugin(activeSlide = 0) {
   document.querySelector(".left").addEventListener("click", () => {
     clearActiveClasses()
 
-    console.log(act + " LEFT")
+    console.log(act + "left")
 
     if(act == 0){
       act = slides.length

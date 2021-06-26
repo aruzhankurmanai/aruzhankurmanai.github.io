@@ -30,10 +30,10 @@ async function submitHandler(event) {
 
     await apiService.createPost(formData)
     this.form.clear()
-    if (formData.type = 'news') {
-      alert('Новость создана в базе данных');
+    if (formData.type == 'news') {
+      alert('Новость создана в базе данных!')
     } else {
-      alert('Заметка создана в базе данных');
+      alert('Заметка создана в базе данных')
     }
 
   }

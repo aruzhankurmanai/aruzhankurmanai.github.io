@@ -53,7 +53,16 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.arrow i {
+.arrow img {
   color: white;
   font-size: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #F4F4F4;
+  border-radius: 50px;
+  margin-top: 400px;
+}
+
+img.leftarrow {
+  transform: scaleX(-1);
 }
