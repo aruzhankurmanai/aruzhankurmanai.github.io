@@ -3,6 +3,8 @@ function slidePlugin(activeSlide = 0) {
 
   slides[activeSlide].classList.add('active')
 
+  let act = activeSlide
+
   for (const slide of slides) { //"for" creates the cycle of 3 expressions
     slide.addEventListener('click', () => { //addEventListener add an event that happens after clicking
       clearActiveClasses() //event itself, removes active classes
@@ -10,6 +12,38 @@ function slidePlugin(activeSlide = 0) {
       slide.classList.add('active') //shows the now active slide
     })
   }
+
+  document.querySelector(".right").addEventListener("click", () => {
+    clearActiveClasses()
+
+    console.log(act + " Right")
+
+    if(w == slides.length - 1){
+      act++
+      act = 0
+      slides[w].classList.add('active')
+    } else{
+      act++
+      slides[w].classList.add('active')
+    }
+
+  })
+
+  document.querySelector(".left").addEventListener("click", () => {
+    clearActiveClasses()
+
+    console.log(act + " LEFT")
+
+    if(w == 0){
+      act = slides.length
+      act--
+      slides[w].classList.add('active')
+    }else{
+      act--
+      slides[w].classList.add('active')
+    }
+
+  })
 
   function clearActiveClasses() {
     slides.forEach((slide) => {
