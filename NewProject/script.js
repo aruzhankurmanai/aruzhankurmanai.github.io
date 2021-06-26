@@ -18,7 +18,7 @@ function slidePlugin(activeSlide = 0) {
 
     console.log(act + " Right")
 
-    if(w == slides.length - 1){
+    if(act == slides.length - 1){
       act++
       act = 0
       slides[w].classList.add('active')
