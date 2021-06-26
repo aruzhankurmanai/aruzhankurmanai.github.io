@@ -21,10 +21,10 @@ function slidePlugin(activeSlide = 0) {
     if(act == slides.length - 1){
       act++
       act = 0
-      slides[w].classList.add('active')
+      slides[act].classList.add('active')
     } else{
       act++
-      slides[w].classList.add('active')
+      slides[act].classList.add('active')
     }
 
   })
@@ -34,13 +34,13 @@ function slidePlugin(activeSlide = 0) {
 
     console.log(act + " LEFT")
 
-    if(w == 0){
+    if(act == 0){
       act = slides.length
       act--
-      slides[w].classList.add('active')
+      slides[act].classList.add('active')
     }else{
       act--
-      slides[w].classList.add('active')
+      slides[act].classList.add('active')
     }
 
   })
