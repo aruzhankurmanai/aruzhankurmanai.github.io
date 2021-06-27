@@ -97,7 +97,7 @@ function renderBox() {
   box.style.cursor = 'pointer'
   box.setAttribute('data-box', 'true')
   box.style.borderRadius = '50%' //added change border radius
-  document.body.style.background = colors[randomColorBackground] //Changing colors of background with random
+  document.body.style.background = colors[randomColorBackground] //Changing colors of background at random
 
   $game.insertAdjacentElement('afterbegin', box)
 
