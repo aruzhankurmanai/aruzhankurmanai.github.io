@@ -1,7 +1,7 @@
 const item = document.querySelector('.item')
 const placeholders = document.querySelectorAll('.placeholder')
 
-item.addEventListener('dragstart', dragstart)
+item.addEventListener('dragstart', dragstart)//attaches an event handler to the specified element.
 item.addEventListener('dragend', dragend)
 
 for (const placeholder of placeholders) {
@@ -11,8 +11,8 @@ for (const placeholder of placeholders) {
   placeholder.addEventListener('drop', dragdrop)
 }
 
-function dragstart(event) {
-  event.target.classList.add('hold')
+function dragstart(event) { //вызвана функция
+  event.target.classList.add('hold') //event. target – это исходный элемент, на котором произошло событие, в процессе всплытия он неизменен
   setTimeout(() => event.target.classList.add('hide'), 0)
 }
 
